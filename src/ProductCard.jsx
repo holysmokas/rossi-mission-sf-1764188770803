@@ -1,0 +1,29 @@
+import { useCart } from './CartContext.jsx';
+
+function ProductCard({ product }) {
+  const { addToCart } = useCart();
+
+  return (
+    <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
+      <div className="aspect-square overflow-hidden bg-gray-100">
+        <img src={product.image || 'https://via.placeholder.com/300'} alt={product.name} className="w-full h-full object-cover" />
+      </div>
+      <div className="p-4">
+        <h3 className="font-semibold text-lg mb-2">{product.name}</h3>
+        <p className="text-gray-600 text-sm mb-3 line-clamp-2">{product.description}</p>
+        <div className="flex items-center justify-between">
+          <span className="text-xl font-bold text-blue-600">${product.price?.toFixed(2)}</span>
+          {product.inStock ? (
+            <button onClick={() => addToCart(product)} className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition">
+              Add to Cart
+            </button>
+          ) : (
+            <span className="text-red-500 text-sm">Out of Stock</span>
+          )}
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default ProductCard;

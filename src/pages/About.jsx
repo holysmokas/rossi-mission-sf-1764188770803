@@ -7,68 +7,62 @@ function About() {
             About Rossi Mission SF
           </h1>
           <p className="text-xl text-gray-600">
-            Crafting premium clothing with passion and purpose since our founding
+            One of the premier graffiti art galleries in North America, showcasing a diverse array of Bay Area street artists.
           </p>
         </div>
 
-        <div className="prose prose-lg max-w-none">
-          <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
-            <h2 className="text-2xl font-bold mb-4">Our Story</h2>
+        <div className="space-y-8">
+          <div className="bg-white rounded-lg shadow-lg p-8">
+            <h2 className="text-2xl font-bold mb-4">Celebrated Artists</h2>
             <p className="text-gray-700 mb-4">
-              Founded in the heart of San Francisco, Rossi Mission SF began with a simple mission: 
-              to create high-quality, stylish clothing that reflects the vibrant spirit of our city. 
-              We believe that great clothing should not only look good but also feel good and last long.
+              The gallery represents legendary figures like <strong>MQ</strong>, <strong>JENKS</strong>, and <strong>Savvy</strong>—some of the most famous names in the history of graffiti art.
+            </p>
+            <p className="text-gray-700 mb-4">
+              MQ, for example, began his journey in the late 1970s in New York City, painting alongside icons like Keith Haring.
             </p>
             <p className="text-gray-700">
-              Our team of designers and craftspeople work tirelessly to bring you pieces that combine 
-              timeless style with modern functionality. Every item in our collection is carefully 
-              selected and designed to meet our high standards of quality and comfort.
+              Rossi also highlights the new wave of street artists, including emerging talents such as <strong>Eclair Bandersnatch</strong>, <strong>Savie</strong> and <strong>GONER</strong>. 
+              Eclair Bandersnatch, hailed by the media as "the new Banksy," is just one example of Rossi's dedication to modern graffiti art.
             </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
-            <div className="bg-blue-50 rounded-lg p-6">
-              <h3 className="text-xl font-bold mb-3">Our Mission</h3>
-              <p className="text-gray-700">
-                To provide premium clothing that empowers individuals to express their unique style 
-                while maintaining the highest standards of quality and sustainability.
-              </p>
-            </div>
-            <div className="bg-gray-50 rounded-lg p-6">
-              <h3 className="text-xl font-bold mb-3">Our Values</h3>
-              <ul className="text-gray-700 space-y-2">
-                <li>• Quality craftsmanship</li>
-                <li>• Sustainable practices</li>
-                <li>• Customer satisfaction</li>
-                <li>• Community support</li>
-              </ul>
-            </div>
           </div>
 
           <div className="bg-white rounded-lg shadow-lg p-8">
-            <h2 className="text-2xl font-bold mb-4">Why Choose Us?</h2>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-              <div className="text-center">
-                <div className="text-3xl mb-2">🏆</div>
-                <h4 className="font-semibold mb-2">Premium Materials</h4>
-                <p className="text-gray-600 text-sm">
-                  We source only the finest fabrics and materials for our products.
-                </p>
-              </div>
-              <div className="text-center">
-                <div className="text-3xl mb-2">✨</div>
-                <h4 className="font-semibold mb-2">Unique Designs</h4>
-                <p className="text-gray-600 text-sm">
-                  Our in-house designers create original, trend-setting pieces.
-                </p>
-              </div>
-              <div className="text-center">
-                <div className="text-3xl mb-2">🤝</div>
-                <h4 className="font-semibold mb-2">Customer First</h4>
-                <p className="text-gray-600 text-sm">
-                  Your satisfaction is our top priority, always.
-                </p>
-              </div>
+            <h2 className="text-2xl font-bold mb-4">Art Meets Fashion</h2>
+            <p className="text-gray-700 mb-4">
+              At Rossi, the experience extends beyond traditional art. The gallery collaborates with its artists to create exclusive clothing lines, including:
+            </p>
+            <ul className="list-disc pl-6 text-gray-700 mb-4 space-y-1">
+              <li>T-shirts</li>
+              <li>Hoodies</li>
+              <li>Sweats</li>
+            </ul>
+            <p className="text-gray-700">
+              These include both printed designs and unique, hand-painted pieces.
+            </p>
+          </div>
+
+          <div className="bg-white rounded-lg shadow-lg p-8">
+            <h2 className="text-2xl font-bold mb-4">Beyond Canvases</h2>
+            <p className="text-gray-700 mb-4">
+              The gallery also offers an eclectic range of hand-painted objects, such as:
+            </p>
+            <ul className="list-disc pl-6 text-gray-700 mb-4 space-y-1">
+              <li>Spray cans (starting at $100)</li>
+              <li>Figurines</li>
+              <li>Vases</li>
+              <li>Even a fire hydrant!</li>
+            </ul>
+            <p className="text-gray-700">
+              Rossi Mission SF is more than a gallery—it's a wonderland where graffiti art and fashion collide in an immersive experience.
+            </p>
+          </div>
+
+          <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg shadow-lg p-8 text-center">
+            <h2 className="text-2xl font-bold mb-4">Visit Us</h2>
+            <div className="text-xl">
+              <p className="mb-2">📍 Physical Location:</p>
+              <p className="font-semibold">791 Valencia Street</p>
+              <p className="text-blue-100 mt-4">San Francisco, CA</p>
             </div>
           </div>
         </div>

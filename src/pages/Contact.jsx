@@ -116,7 +116,8 @@ function Contact() {
                   </div>
                   <div>
                     <p className="font-medium">Address</p>
-                    <p className="text-gray-600">San Francisco, CA</p>
+                    <p className="text-gray-600">791 Valencia Street</p>
+                    <p className="text-gray-600">San Francisco, CA 94110</p>
                   </div>
                 </div>
                 
@@ -128,7 +129,7 @@ function Contact() {
                   </div>
                   <div>
                     <p className="font-medium">Phone</p>
-                    <p className="text-gray-600">(555) 123-4567</p>
+                    <p className="text-gray-600">(415) 691-7085</p>
                   </div>
                 </div>
                 
@@ -141,7 +142,7 @@ function Contact() {
                   </div>
                   <div>
                     <p className="font-medium">Email</p>
-                    <p className="text-gray-600">info@rossimissionsf.com</p>
+                    <p className="text-gray-600">sahar@rossimissionsf.com</p>
                   </div>
                 </div>
               </div>

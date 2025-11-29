@@ -33,9 +33,10 @@ function Footer() {
           <div>
             <h4 className="text-lg font-semibold mb-4">Contact Info</h4>
             <div className="text-gray-400 space-y-2">
-              <p>San Francisco, CA</p>
-              <p>info@rossimissionsf.com</p>
-              <p>(555) 123-4567</p>
+              <p>791 Valencia Street</p>
+              <p>San Francisco, CA 94110</p>
+              <p>sahar@rossimissionsf.com</p>
+              <p>(415) 691-7085</p>
             </div>
           </div>
         </div>
